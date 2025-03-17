@@ -1,0 +1,80 @@
+.heading {
+    margin: 2vh 0vw
+}
+
+.cards {
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.hero-section {
+    margin-top: 30px;
+}
+
+.heading {
+    padding: 20px 0;
+    border-top: 2px solid #0c504e;
+    margin: 15px 0px;
+}
+.services {
+    padding: 100px 20px;
+    border-top: 2px solid #0c504e;
+}
+.service-heading {
+    padding: 20px 0;
+    margin: 15px 0px;
+}
+.box {
+    padding: 5vw;
+    margin: 0vh 1vw;
+    background-color: #0c504e;
+    width: 40vw;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.contacts {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    padding: 50px 60px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.gap-between {
+    margin: 30px 0px;
+}
+.title-gap {
+    margin: 30px 0px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    border-top: 2px solid #0c504e;
+}
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-card {
+    width: 80vw;
+}
+.button-gap {
+    margin: 30px 0px;
+}
+.contact-inputs{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

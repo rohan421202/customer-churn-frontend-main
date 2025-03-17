@@ -1,0 +1,39 @@
+.predict {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    gap: 3vw;
+}
+
+.pred {
+    overflow: auto;
+    max-width: 60vw;
+    max-height: 70vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+}
+
+.download {
+    cursor: pointer;
+    width: 5vw;
+    position: absolute;
+    right: 1vw;
+    top: 5vh;
+}
+@media screen and (max-width: 1024px) {
+    .pred {
+        max-width: 95vw;
+    }
+    .predict {
+        flex-direction : column;
+    }
+    .predict-child {
+        width: 95vw;
+    }
+    .download {
+        right : 10vw;
+        top: 3vh;
+    }
+  }

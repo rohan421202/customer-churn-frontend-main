@@ -1,0 +1,9 @@
+.space {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.pos {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}

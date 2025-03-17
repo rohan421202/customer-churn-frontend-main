@@ -1,0 +1,23 @@
+.insights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+.custom-btn {
+    margin-top: 2vh;
+}
+
+.insight-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+@media screen and (max-width: 700px) {
+    .insights {
+        flex-direction: column;
+    }
+}
